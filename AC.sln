@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ac.web", "ac.web\ac.web.csproj", "{8CED512D-96DA-419F-9B23-344B799B6FA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ac.business", "ac.business\ac.business.csproj", "{E43D4309-FE02-4D21-B219-447558A0B1DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CED512D-96DA-419F-9B23-344B799B6FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CED512D-96DA-419F-9B23-344B799B6FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CED512D-96DA-419F-9B23-344B799B6FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CED512D-96DA-419F-9B23-344B799B6FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E43D4309-FE02-4D21-B219-447558A0B1DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E43D4309-FE02-4D21-B219-447558A0B1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E43D4309-FE02-4D21-B219-447558A0B1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E43D4309-FE02-4D21-B219-447558A0B1DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
