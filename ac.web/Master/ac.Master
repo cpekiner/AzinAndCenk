@@ -5,6 +5,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">   
     <asp:ContentPlaceHolder ID="cpHead" runat="server" />
+    <link id="basestyle" href="../Styles/Style.css" rel="Stylesheet" type="text/css" />           
+    <script type="text/javascript" src="../Scripts/jquery-1.5.1.js"></script>    
+    <script type="text/javascript" src="../Scripts/code.js"></script>
 </head>
 <body>
 <form id="form1" runat="server">
