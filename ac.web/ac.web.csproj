@@ -50,7 +50,6 @@
     <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\default.htm" />
     <Content Include="Content\Home.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Images\ac_text.png" />
@@ -61,6 +60,7 @@
     <Content Include="Images\honeymoon_on.png" />
     <Content Include="Images\hotels_off.png" />
     <Content Include="Images\hotels_on.png" />
+    <Content Include="Images\kiz_kulesi.jpg" />
     <Content Include="Images\localactivities_off.png" />
     <Content Include="Images\localactivities_on.png" />
     <Content Include="Images\main_ac.png" />

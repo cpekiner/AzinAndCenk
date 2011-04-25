@@ -1,11 +1,75 @@
-﻿body { color:#000066; font-family: Script; font-size:20px; }
-a {color:#48D1CC; padding-left:6px; padding-right:6px; padding-top:2px;}
-ul.nav { padding:0; margin:0; width: 100%; float:left; list-style: none; }
-ul.nav li { float:left;}
-ul.nav a { display:block; text-decoration: none; border: #D1FF47 1px solid; border-bottom:0; }
+﻿body 
+{ 
+    color:#000066; 
+    font-family: "Script, MS Gothic Sans-Serif";
+    font-size:20px; 
+}
 
-ul.nav li.current a { color: #000080; }
-#mainbody {margin:80px auto 0px; width:800px; }
-div.tabcontainer {width:100%; float:left; clear:both;}
-div.tabcontainer div.tab {display: none; padding:5px 5px 10px 5px;}
-div.tabcontainer div.current { display:block; border:#D1FF47 1px solid; }
+a 
+{
+    color:#48D1CC; 
+    padding-left:6px; 
+    padding-right:6px; 
+    padding-top:2px;
+}
+
+ul.nav 
+{ 
+    padding:0; 
+    margin:0; 
+    width: 100%; 
+    float:left; 
+    list-style: none; 
+}
+
+ul.nav li 
+{ 
+    float:left;
+}
+
+ul.nav a 
+{ 
+    display:block; 
+    text-decoration: none; 
+    border: #D1FF47 1px solid; 
+    border-bottom:0; 
+}
+
+ul.nav li.current a 
+{ 
+    color: #000080; 
+}
+
+#body 
+{
+    margin:40px auto 0px;         
+}
+
+#mainbody 
+{
+    margin:60px auto 0px; 
+    width:810px; 
+}
+
+div.tabcontainer 
+{
+    width:800px; 
+    float:left; 
+    clear:both;
+}
+
+div.tabcontainer div.tab 
+{
+    display: none; 
+    padding:5px 5px 10px 5px;
+    width: 100%;
+}
+
+div.tabcontainer div.current 
+{ 
+    display:block; 
+    border:#D1FF47 1px solid; 
+    width: 100%;
+}
+
+

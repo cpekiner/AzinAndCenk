@@ -25,6 +25,7 @@ namespace ac.web
                 System.Net.NetworkCredential nc = new System.Net.NetworkCredential("azinandcenk@gmail.com", "hophophop");
                 client.Credentials = nc;
                 client.Send(mail);
+                Response.Redirect("~/Content/Home.aspx");
             }
         }
     }

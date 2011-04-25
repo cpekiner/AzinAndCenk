@@ -10,10 +10,43 @@
     <script type="text/javascript" src="../Scripts/code.js"></script>
 </head>
 <body>
-<form id="form1" runat="server">
+<form id="form1" runat="server">    
     
-    <div style="position: absolute; top: 20px; margin-left: auto; margin-right:auto; width: 800px; border: 1px solid red;">
-       <asp:ContentPlaceHolder ID="cpBody" runat="server" />
+    <div id="body">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0">           
+            <tr>
+                <td style="vertical-align: top;"><img src="../Images/main_ac.png" alt="Azin and Cenk" /></td>
+                <td style="width:10px;"></td>
+                <td width="600px">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td style="height:60px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; text-align: right;"><img src="../Images/ac_text.png" alt="Azin and Cenk" /></td>
+                        </tr>
+                        <tr>
+                            <td style="height:120px;"></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">
+                                <table border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td>
+                                            <div id="mainbody" style="text-align: left;">
+                                                <asp:ContentPlaceHolder ID="cpBody" runat="server" />
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>                                
+                            </td>
+                        </tr>
+                    </table>                    
+                </td>
+            </tr>
+        </table>
+        </center>        
     </div>
 
 </form>
