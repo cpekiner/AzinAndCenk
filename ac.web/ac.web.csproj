@@ -32,12 +32,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\BinRef\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -52,7 +57,10 @@
   <ItemGroup>
     <Content Include="Content\Home.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="hi5.aspx" />
+    <EmbeddedResource Include="Hi5FormBehavior.js" />
     <Content Include="Images\ac_text.png" />
+    <Content Include="Images\hi5.png" />
     <Content Include="Images\Home.jpg" />
     <Content Include="Images\home_off.png" />
     <Content Include="Images\home_on.png" />
@@ -61,6 +69,7 @@
     <Content Include="Images\hotels_off.png" />
     <Content Include="Images\hotels_on.png" />
     <Content Include="Images\kiz_kulesi.jpg" />
+    <Content Include="Images\kiz_kulesi.png" />
     <Content Include="Images\localactivities_off.png" />
     <Content Include="Images\localactivities_on.png" />
     <Content Include="Images\main_ac.png" />
@@ -73,9 +82,13 @@
     <Content Include="Images\registry_on.png" />
     <Content Include="Images\rsvp_off.png" />
     <Content Include="Images\rsvp_on.png" />
+    <Content Include="Images\Say_hi.png" />
     <Content Include="Index.aspx" />
     <Content Include="Scripts\code.js" />
+    <Content Include="hi5.js" />
     <Content Include="Scripts\jquery-1.5.1.js" />
+    <Content Include="prototype.js" />
+    <Content Include="hi5.css" />
     <Content Include="Styles\Style.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -96,6 +109,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="hi5.aspx.cs">
+      <DependentUpon>hi5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hi5.aspx.designer.cs">
+      <DependentUpon>hi5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hi5FormDesigner.cs" />
+    <Compile Include="Hi5FormExtender.cs" />
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

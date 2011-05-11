@@ -15,21 +15,123 @@
    
     <div class="tabcontainer">
         <div class="tab current">
-        We decided on a small wedding in Turkey because majority of Cenk's freinds and family are living over there,
-        it's close to Iran, and also what is more fun than giving all of our friends and family
-        who live around the world (Tehran, London, Paris, Milan, Hamburg, Budapest, Santa Marta, San Francisco, LA, New York, Torento, and Monreal )<br />
-        a reason to get together in Fabulous Istanbul?<br />
-        To all the guests who are traveling to Turkey, to join our celebration:<br />
-        We hope the adventure will bae as memorable for you as it will be for us.<br /><br />
-        With Love and Appreciation,<br /><br />
-        Azin & Cenk
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td style="height:10px;"></td>
+                </tr>
+                <tr>
+                    <td style="width: 10px;"></td>
+                    <td>
+                        <table border="0" cellpadding="0" cellspacing="0">                                                       
+                            <tr>
+                                <td>
+                                    We decided on a small wedding in Turkey because majority of Cenk's friends and family are living over there,
+                                    it's close to Iran, and also what is more fun than giving all of our friends and family
+                                    who live around the world (Tehran, London, Paris, Milan, Hamburg, Budapest, Santa Marta, San Francisco, LA, New York, Torento, and Monreal )<br />
+                                    a reason to get together in Fabulous Istanbul?<br />
+                                    To all the guests who are traveling to Turkey, to join our celebration:<br />
+                                    We hope the adventure will be as memorable for you as it will be for us.<br /><br />
+                                    With Love and Appreciation,<br />
+                                    Azin & Cenk
+                                </td>
+                            </tr>
+                        </table>  
+                    </td>
+                    <td style="width: 10px;"></td>
+                </tr>
+            </table>       
         </div>
         <div class="tab">Where?Araxi Restaurant <br />Which city? Whistler village</div>
         <div class="tab">
-            KIZ KULESI (The Maiden Tower)
-            <img src="../Images/kiz_kulesi.jpg" alt="The Maiden Tower" />
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td style="height:10px;"></td>
+                </tr>
+                <tr>
+                    <td style="width: 10px;"></td>
+                    <td>
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td><a href="http://www.kizkulesi.com.tr/en/Default2.asp" target="_blank">KIZ KULESI (The Maiden Tower)</a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:15px;"></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../Images/kiz_kulesi.png" border="2" alt="The Maiden Tower" align="right" style="margin: 10px 10px 10px 10px"/>
+                                Since I was a kid I always wanted to see "The Maiden Tower" but at those times it was a restricted place. Moreover, the idea of being a forbidden place made me even more curious to see it. 
+                                When I heard that The Maiden Tower was renovated and opened for public use, I thought that this would be the perfect place to celebrate our magical day.
+                                <br /><br />
+                                Groom
+                                </td>
+                            </tr>
+                        </table>  
+                    </td>
+                    <td style="width: 10px;"></td>
+                </tr>
+            </table>                                  
         </div>
-        <div class="tab">hotels:&hellip;<br />Restaurants:&hellip;<br />Night life:&hellip;<br />Shopping:&hellip;<br />Beauty Salons:&hellip;</div>
+        <div class="tab">
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td style="height:10px;"></td>
+                </tr>
+                <tr>
+                    <td style="width: 10px;"></td>
+                    <td>
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>HOTELS:</td>
+                            </tr>
+                            <tr>
+                                <td style="height:15px;"></td>
+                            </tr>
+                            <tr>
+                                <td>We are talking with our friends in Turkey who are travel agents or hotel managers and trying to get good deals for hotel accomodations. 
+                                So far we got special rates from 2 different hotels:</td>
+                            </tr>
+                            <tr>
+                                <td style="height:15px;"></td>
+                            </tr>
+                            <tr>
+                                <td><a href="http://www.swissotel.com/istanbul" target="_blank">Swiss Hotel The Bosphorus</a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:10px;"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td style="height:25px;"></td>
+                            </tr>
+                            <tr>
+                                <td><a href="http://www.gezibosphorus.com" target="_blank">Gezi Hotel Bosphorus</a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:10px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="height:5px;">This is a 5 star boutique hotel in a very good location. It is close to all touristic places and just in the middle of Taksim square.</td>
+                            </tr>
+                            <tr>
+                                <td style="height:10px;"></td>
+                            </tr>
+                            <tr>
+                                <td>140 € (tax and breakfast included). It is about 200usd per night. This is a great deal, at hotels.com the <a href="http://www.hotels.com/hotel/details.html?pa=16&pn=1&ps=16&reviewOrder=date_newest_first&roomno=1&departureDate=06-07-11&destinationId=1341107&rooms[0].numberOfAdults=2&tab=description&arrivalDate=06-03-11&hotelId=263272&validate=false" target="_blank">same rooms</a> are being sold around 350usd.</td>
+                            </tr>
+                            <tr>
+                                <td style="height:30px;"></td>
+                            </tr>
+                            <tr>
+                                <td>If you want to benefit from these prices and book your hotel in either Swiss Hotel or Gezi Hotel, please send us an <a href="mailto:muratbatal@gmail.com">e-mail</a>.</td>
+                            </tr>
+                        </table>  
+                    </td>
+                    <td style="width: 10px;"></td>
+                </tr>
+            </table>          
+        </div>
         <div class="tab">Santorini & Amalfi Coast</div>
         <div class="tab">Vacations<br />Parties<br />Engagement<br />Our Pet<br /></div>
     </div>
