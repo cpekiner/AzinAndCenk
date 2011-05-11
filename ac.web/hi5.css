@@ -1,17 +1,20 @@
 ﻿html
 { 
-    margin:0 !important; 
+    margin:0px 0px 0px 0px; !important; 
 }
 
 body 
 {
     font-family:Helvetica,"Trebuchet MS","Lucida Sans",Arial,Verdana,Tahoma,sans-serif;
     background-color:#FFFFFF;
-    width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
+    width: auto;
+	margin: 0px 0px 0px 0px;
     z-index: 1;
-    line-height:1.4;
+}
+
+#pageWrapper 
+{
+    clear:both;   
 }
 
 #box
@@ -20,7 +23,8 @@ body
     background:#f3f3f3;
     width:950px;
     height: auto; 
-    z-index: 2;    
+    z-index: 2;   
+    -m-box-shadow: 2px 2px 5px #888888; 
     box-shadow: 2px 2px 5px #888888; 
 }
 
@@ -38,11 +42,6 @@ label span
     padding-right:15px;
     width:150px;
     text-align:right;
-}
-
-#pageWrapper 
-{
-    clear:both;   
 }
 
 #topbackground

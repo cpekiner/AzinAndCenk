@@ -1,4 +1,5 @@
-﻿function crop(imageId, cropId, x, y, width, height) {   
+﻿function crop(imageId, cropId, x, y, width, height) {
+   
     $(cropId).update('<img id="' + cropId + '_img" src="' + $(imageId).getAttribute('src') + '" style="display:none" />');
     
     var scale_x = $(cropId).getWidth() / width;

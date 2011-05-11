@@ -2,7 +2,7 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<head runat="server">
     <link type="text/css" rel="stylesheet" href="hi5.css" />
     <script src="prototype.js" type="text/javascript"></script>
     <script src="hi5.js" type="text/javascript"></script>
@@ -13,9 +13,11 @@
     <form id="Form1" runat="server">
     <input type="hidden" id="hidHi" runat="server" />
     <ajax:ToolkitScriptManager runat="Server" ID="smHi" CombineScripts="false" />
-    <img id="imgHi5" src="Images/hi5.png" alt="hi5 image" style="display: none;" />    
+    <img id="imgHi5" src="Images/hi5.png" alt="hi5 image" style="display: none;" /> 
+       
     <div id="pageWrapper">
-        <div style="height: 200px; background: #ffe2c0; width: 1000px; text-align: center;">dd
+    
+        <div style="height: 80px; background: #ffe2c0; text-align: center; margin: 0px 0px 0px 0px;" />
             <div style="margin: 20px 0px 0px 0px">   
                 <div style="height:300px; width: 950px; background: red;">                  
                     <div id="crop" style="float: left; width:478px; height:80px;"></div>
@@ -37,24 +39,24 @@
                         <label>
                             <span><asp:Label runat="server" ID="lName" Text="Name" /></span>        
                             <asp:TextBox runat="server" ID="tbName" CssClass="input" />
-                            <asp:RequiredFieldValidator runat="server" ID="rfvName" CssClass="warning" ControlToValidate="tbName" Display="Dynamic" EnableClientScript="true" Text="* required field" ValidationGroup="hi5Group" />    
+                            <asp:RequiredFieldValidator runat="server" ID="rfvName" CssClass="warning" ControlToValidate="tbName" Display="Dynamic" EnableClientScript="true" ErrorMessage="* required" ValidationGroup="hi5Group" />    
                         </label>
 
                         <label><span> <asp:Label runat="server" ID="lEmail" Text="E-mail" /></span>
                             <asp:TextBox runat="server" ID="tbEmailAddress" CssClass="input" />
-                            <asp:RequiredFieldValidator runat="server" ID="rfvEmailAddress" CssClass="warning" ControlToValidate="tbEmailAddress" Display="Dynamic" EnableClientScript="true" Text="* required field" ValidationGroup="hi5Group" />
-                            <asp:RegularExpressionValidator runat="server" ID="revEmailAddress" ControlToValidate="tbEmailAddress" Text="* not valid e-mail address" Display="Dynamic" EnableClientScript="true" CssClass="warning" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ValidationGroup="hi5Group" />
+                            <asp:RequiredFieldValidator runat="server" ID="rfvEmailAddress" CssClass="warning" ControlToValidate="tbEmailAddress" Display="Dynamic" EnableClientScript="true" ErrorMessage="* required" ValidationGroup="hi5Group" />
+                            <asp:RegularExpressionValidator runat="server" ID="revEmailAddress" ControlToValidate="tbEmailAddress" Text="* not valid" Display="Dynamic" EnableClientScript="true" CssClass="warning" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ValidationGroup="hi5Group" />                            
                         </label>
 
                         <label><span><asp:Label runat="server" ID="lPassword" Text="Password" /></span>
                             <asp:TextBox runat="server" ID="tbPassword" TextMode="Password" CssClass="input" />
-                            <asp:RequiredFieldValidator runat="server" ID="rfvPassword" CssClass="warning" ControlToValidate="tbPassword" Display="Dynamic" EnableClientScript="true" Text="* required field" ValidationGroup="hi5Group" />      
+                            <asp:RequiredFieldValidator runat="server" ID="rfvPassword" CssClass="warning" ControlToValidate="tbPassword" Display="Dynamic" EnableClientScript="true" ErrorMessage="* required" ValidationGroup="hi5Group" />      
                         </label>
 
                         <label><span><asp:Label runat="server" ID="lConfirmPassword" Text="Confirm Password" /></span>
                             <asp:TextBox runat="server" ID="tbConfirmPassword" TextMode="Password" CssClass="input" />
-                            <asp:RequiredFieldValidator runat="server" ID="rfvConfirmPassword" CssClass="warning" ControlToValidate="tbConfirmPassword" Display="Dynamic" EnableClientScript="true" Text="* required field" ValidationGroup="hi5Group" />        
-                            <asp:CompareValidator runat="server" ID="cvPassword" ControlToValidate="tbConfirmPassword" ControlToCompare="tbPassword" Display="Dynamic" EnableClientScript="true" Operator="Equal" CssClass="warning" ErrorMessage="* passwords doesn't match" ValidationGroup="hi5Group" />
+                            <asp:RequiredFieldValidator runat="server" ID="rfvConfirmPassword" CssClass="warning" ControlToValidate="tbConfirmPassword" Display="Dynamic" EnableClientScript="true" ErrorMessage="* required" ValidationGroup="hi5Group" />        
+                            <asp:CompareValidator runat="server" ID="cvPassword" ControlToValidate="tbConfirmPassword" ControlToCompare="tbPassword" Display="Dynamic" EnableClientScript="true" Operator="Equal" CssClass="warning" ErrorMessage="* no match" ValidationGroup="hi5Group" />
                         </label>
         
                         <label><span><asp:Label runat="server" ID="lSubscribe" Text="Subscribe?" /></span>                           
@@ -62,12 +64,12 @@
                                     <asp:ListItem Text="Yes" Value="1" Selected="True" />
                                     <asp:ListItem Text="No" Value="0" />
                                 </asp:RadioButtonList>
-                            <asp:RequiredFieldValidator runat="server" ID="rfvSubscribe" CssClass="warning" ControlToValidate="rblSubscribe" Display="Dynamic" EnableClientScript="true" Text="* required field" ValidationGroup="hi5Group" />
+                            <asp:RequiredFieldValidator runat="server" ID="rfvSubscribe" CssClass="warning" ControlToValidate="rblSubscribe" Display="Dynamic" EnableClientScript="true" ErrorMessage="* required" ValidationGroup="hi5Group" />
                         </label>
         
                         <label><span><asp:Label runat="server" ID="lSpecialMessage" Text="Special Message" CssClass="header" /></span>
                             <asp:TextBox runat="server" ID="tbSpecialMessage" TextMode="MultiLine" CssClass="input multiline" />
-                            <asp:RequiredFieldValidator runat="server" ID="rfvSpecialMessage" CssClass="warning" ControlToValidate="tbSpecialMessage" Display="Dynamic" EnableClientScript="true"  Text="* required field" ValidationGroup="hi5Group" />
+                            <asp:RequiredFieldValidator runat="server" ID="rfvSpecialMessage" CssClass="warning" ControlToValidate="tbSpecialMessage" Display="Dynamic" EnableClientScript="true"  ErrorMessage="* required" ValidationGroup="hi5Group" />
                         </label>
 
                         <div style="padding: 20px 0px 80px 215px">
@@ -79,6 +81,11 @@
                         <div style="background: black; width: 450px; height: 1px;" /><br />
                         
                         <div id="content"></div>
+
+                        <div class=detailBox>
+                            <div style=float:left>Cenk Pekiner<br />ceanank<br />cacnknck</div>
+                            <div style=float:right>This is a special message!!!</div>
+                        </div>
 
                         <div style="background: black; width: 450px; height: 1px; />
                         <div style="height: 10px" />  
