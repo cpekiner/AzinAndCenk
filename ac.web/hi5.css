@@ -87,13 +87,12 @@ label span
 }
 .input
 {
-    display:block;
     border:2px solid #666666;
     color:#666666;
-    margin-top:5px;
+    padding:5px;
     width:180px;
-    height: 25px;
     font-size:20px;
+    margin-top:7px;
 }
 
 .input.multiline
@@ -232,7 +231,12 @@ label span
     padding:0;
     margin:0;
     font-size:0.8em;
-    color:#faa21b;  
+    color:#faa21b; 
+    z-index:4;
+    position:relative;
+    right:-270px;
+    top:-27px;
+    height:1px;
 }
 
 /* Submit Button */
