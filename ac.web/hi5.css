@@ -1,32 +1,65 @@
-﻿html
+﻿html, body, table
 { 
     margin:0; 
     padding:0;
+    height:100%;
 }
-
 body 
 {
     font-family:Helvetica,"Trebuchet MS","Lucida Sans",Arial,Verdana,Tahoma,sans-serif;
     background-color:#FFFFFF;
     width: auto;
     z-index: 1;
+<<<<<<< HEAD
 }
 
 #pageWrapper 
 {
     clear:both;   
+=======
+    line-height:1.4;
+    padding-bottom:35px;
+>>>>>>> c6a9eb9f4b75f338874a16312f0be47923c24315
 }
 
 form
 {
-    margin:0;
+    margin:0; 
     padding:0;
-    background:#F0F0F0;
-    width:950px;
-    height: auto; 
+    width:1000px;
     z-index: 2;
+    overflow:hidden;
+    background:#F0F0F0;
+    margin-left: auto;
+    margin-right: auto;
+    clear:both;
     -moz-box-shadow: 2px 2px 5px #888;
     box-shadow: 2px 2px 5px #888;
+<<<<<<< HEAD
+=======
+    margin-top:-80px;
+  
+}
+ hr
+ {
+     padding:0;
+     margin:0;
+     color: #000;
+     height: 1px;
+     width: 450px;
+     text-align:left;
+     margin-bottom:7px;
+   
+ }
+ 
+#pageWrapper
+{
+    margin:0;
+    padding:0;
+    display:block;
+    width:100%;
+    clear:both;
+>>>>>>> c6a9eb9f4b75f338874a16312f0be47923c24315
 }
 
 label
@@ -45,34 +78,23 @@ label span
     text-align:right;
 }
 
+#crop
+{
+    float: left;
+    width:350px; 
+    height:60px;
+}
 #topbackground
 {
     height: 100px;
     width:auto;
     background: #ffe2c0;
     text-align: center; 
-    border-bottom:18px solid black;
-      
+    border-bottom:18px solid black;     
 }
-
-.footer
-{
-     width:20px; 
-     height:20px; 
-   
-}
-
-.radio
-{   
-    padding-left: 30px;
-    margin-top:5px;
-    width:120px;
-    height: 20px;
-    font-size:16px;
-}
-
 .input
 {
+    display:block;
     border:2px solid #666666;
     color:#666666;
     margin-top:5px;
@@ -85,6 +107,12 @@ label span
 {
     height: 80px;
     overflow: hidden;
+}
+
+/* Result Box */
+#content
+{
+    margin:5px 5px 5px 0;
 }
 
 .detailBox
@@ -138,67 +166,107 @@ label span
 {
     color: #883838;  
 }
-#crop
+
+/* Left Contents */
+.rules
 {
-    float: left;
-    width:350px; 
-    height:70px;
+   margin:0;
+   padding:0;
+   display:block;
+   float:left;
+   width:40%;
+   padding-top:10px;
+  
 }
-#rules
+.rules b
 {
-    display:table;
-    width:40%;
-    position:relative;
-    top:80px;
-    left:-300px;
+    padding-left:15px;
+    padding-top:5px;
 }
 
-#formbox
+/* Form */
+.formbox
 {
-    display:table;
+    margin:0;
+    padding:0;
+    display:block;
+    overflow:auto;
     float:right;
     width:50%;
     position:relative;
-    top:-600px;
-    
+    top:-30px;
 } 
-#formbox label
+.formbox label
 {
    display:block;
-    margin-bottom:8px;
+   margin-bottom:8px;
+   width:500px;
+   float:right;
 }
 
-#formbox  label span
+.formbox .header,
+.formbox .textForm
 {
     display:block;
-    float:left;    
-    margin-top:3px;
-    padding-right:15px;
+    float:left;
     width:150px;
+    padding-right:8px;
+    padding-top:8px;
     text-align:right;
 }
-.warning
+.radio
+{
+    padding:0;
+    margin:0;
+    width:120px;
+}
+
+.radio label
+{
+    display:block;
+    width:30px;
+    position:relative;
+    top:-10px;  
+}
+.radio input
 {
     display:block;
     position:relative;
-    left:350px;
+    top:10px;  
+} 
+.warning
+{
+    padding:0;
+    margin:0;
+    font-size:0.8em;
+    color:#faa21b;  
 }
-#formbox p
+
+/* Submit Button */
+#ibHi
+{
+    display:block;
+    width:113px;
+    height:36px;
+    cursor:pointer;
+<<<<<<< HEAD
+=======
+    margin-bottom:45px;
+    position:relative;
+    left:160px;
+}
+
+/* Right Side Footer */
+.footer
+{
+     width:20px; 
+     height:20px;     
+}
+.formbox p
 {
     width: 400px;
     font-size: 0.7em;
     color: #9a9a9b;
-    margin: -19px 0px 0px 27px;
-}
-#content
-{
-    padding:2px;
-}
-#ibHi
-{
-    width:113px;
-    height:36px;
-    position:relative;
-    left:165px;
-    cursor:pointer;
+    margin: -20px 0 0 27px;    
+>>>>>>> c6a9eb9f4b75f338874a16312f0be47923c24315
 }
