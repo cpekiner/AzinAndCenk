@@ -1,0 +1,157 @@
+﻿html
+{ 
+    margin:0 !important; 
+}
+
+body 
+{
+    font-family:Helvetica,"Trebuchet MS","Lucida Sans",Arial,Verdana,Tahoma,sans-serif;
+    background-color:#FFFFFF;
+    width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+    z-index: 1;
+    line-height:1.4;
+}
+
+#box
+{
+    padding-top:10px;
+    background:#f3f3f3;
+    width:950px;
+    height: auto; 
+    z-index: 2;    
+    box-shadow: 2px 2px 5px #888888; 
+}
+
+label
+{
+    display:block;
+    margin-bottom:8px;
+}
+
+label span
+{
+    display:block;
+    float:left;    
+    margin-top:3px;
+    padding-right:15px;
+    width:150px;
+    text-align:right;
+}
+
+#pageWrapper 
+{
+    clear:both;   
+}
+
+#topbackground
+{
+    height:50px;
+    width:950px;
+    background-color:#ffe2c0;    
+}
+
+#topbackgroundblack
+{
+    height:50px;
+    width:950px;
+    background-color:#ffe2c0;    
+}
+
+.footer
+{
+     width:20px; 
+     height:20px; 
+     float: left;
+     margin: 4px 5px 0px 0px;   
+}
+
+.footerText
+{
+    width: 400px;
+    font-size: 10px;    
+    text-align: left;
+    color: #9a9a9b;
+    margin: 0px 0px 0px 25px;
+}
+
+.radio
+{   
+    padding-left: 30px;
+    margin-top:5px;
+    width:120px;
+    height: 20px;
+    font-size:16px;
+}
+
+.input
+{
+    border:2px solid #666666;
+    color:#666666;
+    margin-top:5px;
+    width:180px;
+    height: 25px;
+    font-size:20px;
+}
+
+.input.multiline
+{
+    height: 80px;
+    overflow: hidden;
+}
+
+.detailBox
+{
+    border: 2px solid black;
+    font-family: Verdana;
+    font-size: 12px;
+    width: 450px;
+    height: auto;
+    background: #e7e7e6;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding: 10px 10px 10px 10px;
+}
+
+.box
+{
+   text-align: left; 
+}
+
+.box.text
+{
+    text-align: left;
+    color: #787878;  
+}
+
+.box.text.column1
+{
+    width: 150px;
+    padding-right: 20px;
+}
+
+.box.text.column2
+{
+    vertical-align: top;
+    width: 280px;
+}
+
+.box.email
+{
+    color: #f8951d;  
+}
+
+.box.subscribedSuccess
+{
+    color: #378746;  
+}
+
+.box.subscribedFailure
+{
+    color: #883838;  
+}
+
+
+
