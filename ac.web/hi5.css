@@ -10,17 +10,14 @@ body
     background-color:#FFFFFF;
     width: auto;
     z-index: 1;
-<<<<<<< HEAD
 }
 
 #pageWrapper 
 {
-    clear:both;   
-=======
+    clear:both;  
     line-height:1.4;
     padding-bottom:35px;
->>>>>>> c6a9eb9f4b75f338874a16312f0be47923c24315
-}
+} 
 
 form
 {
@@ -35,21 +32,18 @@ form
     clear:both;
     -moz-box-shadow: 2px 2px 5px #888;
     box-shadow: 2px 2px 5px #888;
-<<<<<<< HEAD
-=======
-    margin-top:-80px;
-  
+    margin-top:-80px;  
 }
- hr
- {
+
+hr
+{
      padding:0;
      margin:0;
      color: #000;
      height: 1px;
      width: 450px;
      text-align:left;
-     margin-bottom:7px;
-   
+     margin-bottom:7px;   
  }
  
 #pageWrapper
@@ -59,7 +53,6 @@ form
     display:block;
     width:100%;
     clear:both;
->>>>>>> c6a9eb9f4b75f338874a16312f0be47923c24315
 }
 
 label
@@ -249,8 +242,6 @@ label span
     width:113px;
     height:36px;
     cursor:pointer;
-<<<<<<< HEAD
-=======
     margin-bottom:45px;
     position:relative;
     left:160px;
@@ -268,5 +259,4 @@ label span
     font-size: 0.7em;
     color: #9a9a9b;
     margin: -20px 0 0 27px;    
->>>>>>> c6a9eb9f4b75f338874a16312f0be47923c24315
 }
