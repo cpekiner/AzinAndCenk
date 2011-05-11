@@ -148,14 +148,14 @@ ac.web.Hi5FormBehavior.prototype = {
                 if (details[2] == "Yes") {
                     var subscribeClass = "box subscribedSuccess";
                     var subscribeTex = "Subscribed!";
-                    var image = "<div style=position:relative;height:14px;width:14px;><img src=Images/hi5.png style='position:absolute;top:0px;left:0px;clip:rect(630px 12px 640px 3px);top:-630px;left:-3px;' /></div>";
+                    var image = "<div style=position:relative;height:14px;width:14px;><img align=left src=Images/hi5.png style='position:absolute;top:0px;left:0px;clip:rect(630px 12px 641px 3px);top:-630px;left:-3px;' /></div>";
                 }
                 else {
                     var subscribeClass = "box subscribedFailure";
                     var subscribeTex = "Not Subscribed!";
-                    var image = "<div style=position:relative;height:14px;width:14px;><img src=Images/hi5.png style='position:absolute;top:0px;left:0px;clip:rect(642px 12px 653px 3px);top:-642px;left:-3px;' /></div>";
+                    var image = "<div style=position:relative;height:14px;width:14px;><img align=left src=Images/hi5.png style='position:absolute;top:0px;left:0px;clip:rect(642px 12px 653px 3px);top:-642px;left:-3px;' /></div>";
                 }
-                var message = "<table border=0 cellpadding=0 cellspacing=0 class=detailBox><tr><td class='box text column1'><b>" + details[0] + "</b></td><td rowspan=3 class='box text column2'>" + details[3] + "</tr><tr><td class='box email'><a href=mailto:" + details[1] + ">" + details[1] + "</a></td></tr><tr><td class='" + subscribeClass + "'>" + image + "&nbsp;&nbsp;" + subscribeTex + "</td></tr></table>";                
+                var message = "<table border=0 cellpadding=0 cellspacing=0 class=detailBox><tr><td class='box text column1'><b>" + details[0] + "</b></td><td rowspan=3 class='box text column2'>" + details[3] + "</tr><tr><td class='box email'><a href=mailto:" + details[1] + ">" + details[1] + "</a></td></tr><tr><td><table border=0 cellpadding=0 cellspacing=0><tr><td>" + image + "</td><td class='" + subscribeClass + "'>" + subscribeTex + "</td></tr></table></td></tr></table>";                
             }
             content.innerHTML = content.innerHTML + message;
             name.value = "";
