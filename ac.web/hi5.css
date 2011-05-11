@@ -1,6 +1,7 @@
 ﻿html
 { 
-    margin:0px 0px 0px 0px; !important; 
+    margin:0; 
+    padding:0;
 }
 
 body 
@@ -8,7 +9,6 @@ body
     font-family:Helvetica,"Trebuchet MS","Lucida Sans",Arial,Verdana,Tahoma,sans-serif;
     background-color:#FFFFFF;
     width: auto;
-	margin: 0px 0px 0px 0px;
     z-index: 1;
 }
 
@@ -17,15 +17,16 @@ body
     clear:both;   
 }
 
-#box
+form
 {
-    padding-top:10px;
-    background:#f3f3f3;
+    margin:0;
+    padding:0;
+    background:#F0F0F0;
     width:950px;
     height: auto; 
-    z-index: 2;   
-    -m-box-shadow: 2px 2px 5px #888888; 
-    box-shadow: 2px 2px 5px #888888; 
+    z-index: 2;
+    -moz-box-shadow: 2px 2px 5px #888;
+    box-shadow: 2px 2px 5px #888;
 }
 
 label
@@ -46,33 +47,19 @@ label span
 
 #topbackground
 {
-    height:50px;
-    width:950px;
-    background-color:#ffe2c0;    
-}
-
-#topbackgroundblack
-{
-    height:50px;
-    width:950px;
-    background-color:#ffe2c0;    
+    height: 100px;
+    width:auto;
+    background: #ffe2c0;
+    text-align: center; 
+    border-bottom:18px solid black;
+      
 }
 
 .footer
 {
      width:20px; 
      height:20px; 
-     float: left;
-     margin: 4px 5px 0px 0px;   
-}
-
-.footerText
-{
-    width: 400px;
-    font-size: 10px;    
-    text-align: left;
-    color: #9a9a9b;
-    margin: 0px 0px 0px 25px;
+   
 }
 
 .radio
@@ -151,6 +138,67 @@ label span
 {
     color: #883838;  
 }
+#crop
+{
+    float: left;
+    width:350px; 
+    height:70px;
+}
+#rules
+{
+    display:table;
+    width:40%;
+    position:relative;
+    top:80px;
+    left:-300px;
+}
 
+#formbox
+{
+    display:table;
+    float:right;
+    width:50%;
+    position:relative;
+    top:-600px;
+    
+} 
+#formbox label
+{
+   display:block;
+    margin-bottom:8px;
+}
 
-
+#formbox  label span
+{
+    display:block;
+    float:left;    
+    margin-top:3px;
+    padding-right:15px;
+    width:150px;
+    text-align:right;
+}
+.warning
+{
+    display:block;
+    position:relative;
+    left:350px;
+}
+#formbox p
+{
+    width: 400px;
+    font-size: 0.7em;
+    color: #9a9a9b;
+    margin: -19px 0px 0px 27px;
+}
+#content
+{
+    padding:2px;
+}
+#ibHi
+{
+    width:113px;
+    height:36px;
+    position:relative;
+    left:165px;
+    cursor:pointer;
+}
