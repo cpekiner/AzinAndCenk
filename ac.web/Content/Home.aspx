@@ -135,10 +135,10 @@
         <div class="tab">Santorini & Amalfi Coast</div>
         <div class="tab">
             <ul class="gallery">
-	            <li><a href="#" class="pic-1"><img src="../Images/gallery/Engagement/5.jpg" alt="Engagement" /></a><em>Engagement</em></li>
-	            <li><a href="#" class="pic-2"><img src="../Images/gallery/Party/NY2t.jpg" alt="Party" /></a><em>Parties</em></li>
-	            <li><a href="#" class="pic-3"><img src="../Images/gallery/Pet/eshgam2.jpg" alt="our pet" /></a><em>Our Pet</em></li>
-	            <li><a href="#" class="pic-4"><img src="../Images/gallery/Vacation/SFT.jpg" alt="Vacation" /></a><em>Vacations</em></li>	
+	            <li><a href="http://www.scrapblog.com/viewer/vw_full.aspx?sbid=2929784" class="pic-1"><img src="../Images/gallery/Engagement/5.jpg" alt="Engagement" /></a><em>Engagement</em></li>
+	            <li><a href="http://www.scrapblog.com/viewer/vw_full.aspx?sbid=2929777" class="pic-2"><img src="../Images/gallery/Party/NY2t.jpg" alt="Party" /></a><em>Parties</em></li>
+	            <li><a href="http://www.scrapblog.com/viewer/vw_full.aspx?sbid=2929785" class="pic-3"><img src="../Images/gallery/Pet/eshgam2.jpg" alt="our pet" /></a><em>Our Pet</em></li>
+	            <li><a href="http://www.scrapblog.com/viewer/vw_full.aspx?sbid=2929765" class="pic-4"><img src="../Images/gallery/Vacation/SFT.jpg" alt="Vacation" /></a><em>Vacations</em></li>	
             </ul>
         </div>
     </div>

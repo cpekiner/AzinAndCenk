@@ -136,7 +136,9 @@ label span
 .box.text
 {
     text-align: left;
-    color: #787878;  
+    color: #787878;     
+    white-space: nowrap;
+    word-wrap: break-word; 
 }
 
 .box.text.column1

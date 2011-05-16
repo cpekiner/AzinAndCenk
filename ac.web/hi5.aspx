@@ -52,7 +52,7 @@
 
             <label><asp:Label runat="server" ID="lConfirmPassword" Text="Confirm Password" CssClass="textForm"/>
                 <asp:TextBox runat="server" ID="tbConfirmPassword" TextMode="Password" CssClass="input" />
-                <asp:RequiredFieldValidator runat="server" ID="rfvConfirmPassword" CssClass="warning" ControlToValidate="tbConfirmPassword" Display="Dynamic" EnableClientScript="true" Text="* required field" ValidationGroup="hi5Group" />        
+                <asp:RequiredFieldValidator runat="server" ID="rfvConfirmPassword" CssClass="warning" ControlToValidate="tbConfirmPassword" Display="Dynamic" EnableClientScript="true" Text="* required" ValidationGroup="hi5Group" />        
                 <asp:CompareValidator runat="server" ID="cvPassword" ControlToValidate="tbConfirmPassword" ControlToCompare="tbPassword" Display="Dynamic" EnableClientScript="true" Operator="Equal" CssClass="warning" ErrorMessage="* no match" ValidationGroup="hi5Group" />
             </label>
         
